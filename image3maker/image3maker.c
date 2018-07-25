@@ -446,7 +446,7 @@ static void create_image(void)
     }
     
     if(uniqueIdentifier) {
-        printf("ECID:             0x%016llx\n", image3core.imageUniqueIdentifier);
+        printf("ECID:             0x%016lx\n", image3core.imageUniqueIdentifier);
         
         uint64_t *ecid = image3_reserve_ecid(kImage3TagECID, sizeof(uint64_t));
         *ecid = image3core.imageUniqueIdentifier;
