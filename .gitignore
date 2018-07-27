@@ -1,0 +1,7 @@
+# m4 output
+cctools/m4
+cctools/autom4te.cache/
+cctools/aclocal.m4
+cctools/INSTALL
+cctools/include/llvm-c/lto.h
+
