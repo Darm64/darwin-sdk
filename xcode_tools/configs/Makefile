@@ -1,5 +1,5 @@
 TARGET ?= DarwinARM
-DEVELOPER_DIR ?= /opt/Developer
+DEVELOPER_DIR ?= /opt/xnusdk
 
 all:
 	@echo "Nothing to do for all"

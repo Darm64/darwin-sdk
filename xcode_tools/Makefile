@@ -1,4 +1,4 @@
-DEVELOPER_DIR ?= /opt/Developer
+DEVELOPER_DIR ?= /opt/xnusdk
 
 DIRS := \
 	configs \

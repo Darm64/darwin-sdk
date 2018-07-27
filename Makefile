@@ -1,7 +1,7 @@
 SDK=DarwinARM
 TOOLCHAIN=DarwinARM
 
-DEVELOPER_DIR ?= /opt/Developer
+DEVELOPER_DIR ?= /opt/xnusdk
 TOOLCHAIN_DIR ?= $(DEVELOPER_DIR)/Toolchains/$(TOOLCHAIN).toolchain
 SDKROOT ?= $(DEVELOPER_DIR)/SDKs/$(SDK).sdk
 
